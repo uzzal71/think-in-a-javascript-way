@@ -22,3 +22,13 @@ if (true) {
   constVariable.name = "Sujon";
   console.log(constVariable);
 }
+
+let a = 5;
+function func() {
+  a = 10;
+  console.log("Function = ", a);
+}
+
+console.log("A = ", a);
+
+func();
