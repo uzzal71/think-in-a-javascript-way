@@ -23,7 +23,7 @@ if (true) {
   console.log(constVariable);
 }
 
-let a = 5;
+var a = 5;
 function func() {
   a = 10;
   console.log("Function = ", a);
