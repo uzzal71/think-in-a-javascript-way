@@ -6,6 +6,5 @@ console.log(varVariable);
 
 if (true) {
   let letVariable = "This is a let";
+  console.log(letVariable);
 }
-
-console.log(letVariable);
