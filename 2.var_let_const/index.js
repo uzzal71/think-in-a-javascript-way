@@ -13,3 +13,12 @@ if (true) {
   letVariable = "This is a let again";
   console.log(letVariable);
 }
+
+if (true) {
+  const constVariable = {
+    name: "Javascript",
+    age: "12 years",
+  };
+  constVariable.name = "Sujon";
+  console.log(constVariable);
+}
