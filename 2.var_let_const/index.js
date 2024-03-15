@@ -10,5 +10,6 @@ console.log(varVariable);
 
 if (true) {
   let letVariable = "This is a let";
+  letVariable = "This is a let again";
   console.log(letVariable);
 }
