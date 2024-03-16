@@ -5,4 +5,4 @@ var sum = function (x) {
   return num1 + num2;
 };
 
-console.log(sum());
+console.dir(sum);
