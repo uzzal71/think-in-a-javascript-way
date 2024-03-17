@@ -14,4 +14,10 @@ for (var i = 0; i < 100000000; i++) {
   var a = Math.random() * 100000000;
 }
 
+timer();
+
 console.dir(timer);
+
+timer = null;
+
+timer();
