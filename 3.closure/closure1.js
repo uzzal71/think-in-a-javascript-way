@@ -1,10 +1,11 @@
-var num1 = 2;
+let num1 = 2;
 
 var sum = function (x) {
   var num2 = 5;
+  var num = 6;
 
   return function () {
-    return num1 + num2;
+    return num;
   };
 };
 
