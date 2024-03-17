@@ -3,5 +3,6 @@
  * var vs let (and const)
  * function
  */
+var a;
 console.log(a);
-var a = "Bangladesh";
+a = "Bangladesh";
