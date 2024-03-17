@@ -16,8 +16,10 @@ function getLanguage() {
 
 // console.log(`I love ${getLanguage()}`);
 
-myFunc();
-
 function myFunc() {
-  console.log(`I love JavaScript`);
+  language = "javascript";
+  var language;
+  console.log(`${language}`);
 }
+
+myFunc();
