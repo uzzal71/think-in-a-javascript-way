@@ -5,3 +5,7 @@ function bankAccount(initialBalance) {
     return balance;
   };
 }
+
+var account = bankAccount(100);
+
+console.dir(account);
