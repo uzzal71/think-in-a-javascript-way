@@ -1,5 +1,12 @@
-for (var i = 0; i < 3; i++) {
-  setTimeout(() => {
+(function () {
+  for (var i = 0; i < 3; i++) {
+    const myFunc = () => {
+      console.log(i);
+    };
     console.log(i);
-  }, 3000);
-}
+    console.dir(myFunc);
+    setTimeout(myFunc, 3000);
+  }
+
+  console.log("after for loop");
+})();
