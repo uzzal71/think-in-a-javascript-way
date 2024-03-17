@@ -23,9 +23,12 @@ function myFunc() {
   console.log(`${language}`);
 }
 
+// const myFunc
+
 myFunc2();
 
 const myFunc2 = () => {
+  // undefined then function assign
   var language;
   language = "javascript";
   console.log(`${language}`);
