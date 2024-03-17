@@ -1,9 +1,17 @@
 function stopWatch() {
-  var startTime = new Date().getTime();
+  var startTime = Date.now();
 
-  return function () {
-    return new Date().getTime() - startTime;
-  };
+  function getDelay() {
+    console.log(Date.now() - startTime);
+  }
+
+  return getDelay;
 }
 
 var timer = stopWatch();
+
+for (var i = 0; i < 100000000; i++) {
+  var a = Math.random() * 100000000;
+}
+
+console.dir(timer);
