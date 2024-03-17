@@ -17,8 +17,8 @@ function getLanguage() {
 // console.log(`I love ${getLanguage()}`);
 
 function myFunc() {
-  language = "javascript";
   var language;
+  language = "javascript";
   console.log(`${language}`);
 }
 
