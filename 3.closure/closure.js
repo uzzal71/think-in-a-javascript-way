@@ -1,8 +1,12 @@
-num1 = 2;
-num2 = 5;
+var num1 = 2;
 
 var sum = function (x) {
-  return num1 + num2;
+  var num2 = 5;
+
+  return function () {
+    return num1 + num2;
+  };
 };
 
-console.dir(sum);
+var myFunc = sum();
+console.dir(myFunc);
