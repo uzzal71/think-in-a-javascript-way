@@ -16,10 +16,17 @@ function getLanguage() {
 
 // console.log(`I love ${getLanguage()}`);
 
+myFunc();
 function myFunc() {
   var language;
   language = "javascript";
   console.log(`${language}`);
 }
 
-myFunc();
+myFunc2();
+
+const myFunc2 = () => {
+  var language;
+  language = "javascript";
+  console.log(`${language}`);
+};
