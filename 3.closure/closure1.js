@@ -1,13 +1,17 @@
-let num1 = 2;
+(function () {
+  let num1 = 2;
+  var num2 = 3;
 
-var sum = function (x) {
-  var num2 = 5;
-  var num = 6;
-
-  return function () {
-    return num;
+  var sum = function (x) {
+    return num1 + num2;
   };
-};
 
-var myFunc = sum();
-console.dir(myFunc);
+  console.log(sum());
+  console.dir(sum);
+
+  num1 = 6;
+  num2 = 7;
+
+  console.log(sum());
+  console.dir(sum);
+})();
