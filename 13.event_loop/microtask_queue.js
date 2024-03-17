@@ -11,3 +11,12 @@ const first = () => {
 };
 
 first();
+
+/**
+ * heap
+ * call stack
+ * web api or c++ api
+ * Event loop(Render Queue)
+ * callback queue
+ * microtask queue
+ */
