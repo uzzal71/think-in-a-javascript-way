@@ -19,9 +19,13 @@ const addToCalendar = (meetingDetails) => {
 };
 
 async function myMeeting() {
-  const meetingMetails = await meeting;
-  const calendar = await addToCalendar(meetingMetails);
-  console.log(calendar);
+  try {
+    const meetingMetails = await meeting;
+    const calendar = await addToCalendar(meetingMetails);
+    console.log(calendar);
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 myMeeting();
