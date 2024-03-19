@@ -6,3 +6,7 @@ var a = function hello() {
 };
 
 console.dir(a);
+var str = {
+  name: "Bangladesh",
+};
+console.log(str);
