@@ -1,9 +1,7 @@
-var a = function hello() {
-  console.log("Hello World!");
-};
+function hello() {
+  return function () {
+    console.log("Hello World!");
+  };
+}
 
-console.dir(a);
-var str = {
-  name: "Bangladesh",
-};
-console.log(str);
+hello()();
