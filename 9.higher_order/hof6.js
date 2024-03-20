@@ -16,3 +16,13 @@ var players = [
     avg: 52.14,
   },
 ];
+
+var playersWithAvgThirtySeven = [];
+
+for (var i = 0; i < players.length; i++) {
+  if (players[i].avg >= 37) {
+    playersWithAvgThirtySeven.push(players[i]);
+  }
+}
+
+console.log(playersWithAvgThirtySeven);
