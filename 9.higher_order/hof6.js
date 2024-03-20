@@ -17,12 +17,15 @@ var players = [
   },
 ];
 
-var playersWithAvgThirtySeven = [];
+// var playersWithAvgThirtySeven = [];
 
-for (var i = 0; i < players.length; i++) {
-  if (players[i].avg >= 37) {
-    playersWithAvgThirtySeven.push(players[i]);
-  }
-}
+// for (var i = 0; i < players.length; i++) {
+//   if (players[i].avg >= 37) {
+//     playersWithAvgThirtySeven.push(players[i]);
+//   }
+// }
+// console.log(playersWithAvgThirtySeven);
+
+var playersWithAvgThirtySeven = players.filter((player) => player.avg >= 37);
 
 console.log(playersWithAvgThirtySeven);
