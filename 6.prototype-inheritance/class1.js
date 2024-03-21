@@ -1,3 +1,4 @@
+// Parent class
 class Person {
   constructor(name, age) {
     this.name = name;
@@ -9,6 +10,7 @@ class Person {
   }
 }
 
+// Child class
 class Criketer extends Person {
   constructor(name, age, type, country) {
     super(name, age);

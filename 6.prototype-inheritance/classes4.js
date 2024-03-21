@@ -4,7 +4,7 @@ function Person(name, age) {
   this.age = age;
 }
 
-// children class
+// child class
 function Criketer(name, age, type, country) {
   Person.call(this);
   this.name = name;
