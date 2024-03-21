@@ -1,12 +1,9 @@
-function Person(name, age) {
-  this.name = name;
-  this.age = age;
-}
+var f = function Person() {};
 
-Person.prototype = {
-  eat: function () {
-    console.log(`${this.name} is eating`);
-  },
+Object.prototype.uzzal = function () {
+  console.log("uzzal");
 };
 
-const sakib = new Person("Sakib", 35);
+var p = {};
+
+p.uzzal();
