@@ -8,11 +8,6 @@ const middleware1 = (req, res, next) => {
   next();
 };
 
-const middleware2 = (req, res, next) => {
-  req.index = req.index + 1;
-  next();
-};
-
 app.get("/text", (req, res, next) => {
   req.message = "hello world";
   next(); // Call next without passing any argument
