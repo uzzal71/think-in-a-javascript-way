@@ -22,7 +22,6 @@ const middleware4 = (req, res, next) => {
 };
 
 app.use(middleware1, middleware2, middleware3);
-app.use((req, res) => res.send(req.message));
 
 app.get("/text", (req, res, next) => {
   req.message = "hello world";
