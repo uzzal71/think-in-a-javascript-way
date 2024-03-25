@@ -2,12 +2,6 @@ const express = require("express");
 
 const app = express();
 
-const middleware1 = (req, res, next) => {
-  let index = 0;
-  req.index = index;
-  next();
-};
-
 app.get("/text", (req, res, next) => {
   req.message = "hello world";
   next(); // Call next without passing any argument
