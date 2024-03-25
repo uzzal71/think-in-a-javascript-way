@@ -21,8 +21,6 @@ const middleware4 = (req, res, next) => {
   req.message = req.message + " world";
 };
 
-app.use(middleware1, middleware2, middleware3);
-
 app.get("/text", (req, res, next) => {
   req.message = "hello world";
   next(); // Call next without passing any argument
