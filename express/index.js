@@ -22,6 +22,10 @@ app.get("/portfolio", (req, res) => {
   res.send("Portfolio Page");
 });
 
+app.get("/resume", (req, res) => {
+  res.send("Resume Page");
+});
+
 app.listen(2000, () => {
   console.log("Server is running on port 2000");
 });
