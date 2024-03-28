@@ -26,6 +26,10 @@ app.get("/resume", function (req, res) {
   res.send("resume page");
 });
 
+app.get("/404", function (req, res) {
+  res.send("404 page");
+});
+
 app.listen(2000, () => {
   console.log("Server is running on port 2000");
 });
