@@ -18,6 +18,10 @@ app.get("/blog", function (req, res) {
   res.send("blog page");
 });
 
+app.get("/portfolio", function (req, res) {
+  res.send("portfolio page");
+});
+
 app.listen(2000, () => {
   console.log("Server is running on port 2000");
 });
