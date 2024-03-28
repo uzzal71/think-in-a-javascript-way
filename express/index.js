@@ -14,10 +14,6 @@ app.get("/contact", function (req, res) {
   res.send("contact page");
 });
 
-app.get("/blog", function (req, res) {
-  res.send("blog page");
-});
-
 app.listen(2000, () => {
   console.log("Server is running on port 2000");
 });
