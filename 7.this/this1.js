@@ -1,6 +1,14 @@
-var x = "hello";
-console.log(x);
+// implicit binding
+// explicit binding
+// new binding
+// window binding
 
-console.log(1 + 2);
+var sakip = {
+  name: "Sakip",
+  age: 35,
+  printPlayerName: function () {
+    console.log(this.name);
+  },
+};
 
-console.dir(x);
+sakip.printPlayerName();
