@@ -1,3 +1,8 @@
+// implicit binding
+// explicit binding
+// new binding
+// window binding
+
 var Person = function (name, age) {
   return {
     name: name,
