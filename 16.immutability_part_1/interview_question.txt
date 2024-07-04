@@ -1,0 +1,25 @@
+Primitive data types: String, Number, Boolean, Symbolm, Undefined, and Null
+Non-primitive Data Types: Array, Objects
+
+01. What is Immutability?
+English: Immutable basically means something that cannot be changed. In programming, immutable is used to describe a value that cannot be changed after it's been set.
+Bengali: অপরিবর্তনীয় মানে এমন কিছু যা পরিবর্তন করা যায় না। প্রোগ্রামিংয়ে, অপরিবর্তনীয় একটি মান বর্ণনা করতে ব্যবহৃত হয় যা সেট করার পরে পরিবর্তন করা যায় না।
+
+02. Are Variables Immutable?
+English: Values are immutable; variables are not; they hold a reference to their (primitive) values. The three primitive types string, number and boolean have corresponding types whose instances are objects: String, Number, Boolean.
+Bangli: মান অপরিবর্তনীয়; ভেরিয়েবল নয়; তারা তাদের (আদিম) মানগুলির একটি রেফারেন্স রাখে। তিনটি আদিম প্রকারের স্ট্রিং, সংখ্যা এবং বুলিয়ানের অনুরূপ প্রকার রয়েছে যার উদাহরণগুলি হল অবজেক্ট: স্ট্রিং, সংখ্যা, বুলিয়ান।
+
+03. Are Objects and Arrays Immutable?
+English: In JavaScript, objects and arrays are mutable by default. This means that the array can be altered after the array is created. We can modify it "in place", by adding, removing, or changing elements.
+Bengali: জাভাস্ক্রিপ্টে, অবজেক্ট এবং অ্যারে ডিফল্টরূপে পরিবর্তনযোগ্য। এর মানে হল যে অ্যারে তৈরি হওয়ার পরে অ্যারেটি পরিবর্তন করা যেতে পারে। উপাদান যোগ, অপসারণ বা পরিবর্তন করে আমরা এটিকে "স্থানে" পরিবর্তন করতে পারি।
+
+04. How to Extend an Object?
+English: Extending an object in JavaScript means adding properties or methods to enhance its functionality. This can be done dynamically.
+Bangli: জাভাস্ক্রিপ্টে একটি বস্তুকে প্রসারিত করার অর্থ হল এর কার্যকারিতা বাড়ানোর জন্য বৈশিষ্ট্য বা পদ্ধতি যোগ করা। এটি গতিশীলভাবে করা যেতে পারে।
+
+05. How to Stop Object Extension?
+06. How Two Object are Equal?
+07. What is Freezing? (What is Object Freezing?)
+08. How to check Frozen Objects?
+09. Freeze vs Seal When and Why?
+10. Deep Freezing? (Object Deep Freezing?)
