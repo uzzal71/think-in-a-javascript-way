@@ -19,3 +19,6 @@ console.log(user)
 
 user["phone"] = "7850-456-123";
 console.log(user)
+
+delete user["phone"]
+console.log(user)
