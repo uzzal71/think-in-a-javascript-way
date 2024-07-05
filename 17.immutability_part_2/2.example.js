@@ -10,3 +10,6 @@ let user = {
     password: "1235479",
     isAdmin: true
 }
+
+user['spouse'] = "Jane";
+console.log(user);
