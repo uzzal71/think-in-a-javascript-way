@@ -20,3 +20,5 @@ Object.defineProperty(user, 'isMaintainer', {
     enumerable: true,
     configurable: true,
 });
+
+console.log(user);
