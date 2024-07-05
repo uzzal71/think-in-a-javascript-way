@@ -13,3 +13,10 @@ let user = {
 
 user['spouse'] = "Jane";
 console.log(user);
+
+Object.defineProperty(user, 'isMaintainer', {
+    value: false,
+    writable: true,
+    enumerable: true,
+    configurable: true,
+});
