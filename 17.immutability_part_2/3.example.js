@@ -15,3 +15,5 @@ const obj = {name: "uzzal", address: "Dhaka"}
 const copyObj = {};
 Object.assign(copyObj, obj);
 console.log(obj);
+
+console.log(copyObj === obj);
