@@ -18,8 +18,20 @@ English: Extending an object in JavaScript means adding properties or methods to
 Bangli: জাভাস্ক্রিপ্টে একটি বস্তুকে প্রসারিত করার অর্থ হল এর কার্যকারিতা বাড়ানোর জন্য বৈশিষ্ট্য বা পদ্ধতি যোগ করা। এটি গতিশীলভাবে করা যেতে পারে।
 
 05. How to Stop Object Extension?
+English:
+Bangli:
 06. How Two Object are Equal?
+English:
+Bangli:
 07. What is Freezing? (What is Object Freezing?)
+English:
+Bangli:
 08. How to check Frozen Objects?
+English:
+Bangli:
 09. Freeze vs Seal When and Why?
+English:
+Bangli:
 10. Deep Freezing? (Object Deep Freezing?)
+English:
+Bangli:
