@@ -16,3 +16,6 @@ console.log(Object.isExtensible(user))
 
 user["salary"] = 5456;
 console.log(user)
+
+user["phone"] = "7850-456-123";
+console.log(user)
