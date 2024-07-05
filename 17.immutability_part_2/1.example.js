@@ -13,3 +13,6 @@ let user = {
 
 Object.preventExtensions(user);
 console.log(Object.isExtensible(user))
+
+user["salary"] = 5456;
+console.log(user)
