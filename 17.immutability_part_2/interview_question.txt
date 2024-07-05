@@ -1,0 +1,19 @@
+05. How to Stop Object Extension?
+English: The Object. preventExtensions() static method prevents new properties from ever being added to an object (i.e. prevents future extensions to the object). It also prevents the object's prototype from being re-assigned.
+Bangli: অবজেক্ট। preventExtensions() স্ট্যাটিক পদ্ধতি কোনো বস্তুতে নতুন বৈশিষ্ট্য যুক্ত হতে বাধা দেয় (অর্থাৎ অবজেক্টে ভবিষ্যতের এক্সটেনশনকে বাধা দেয়)। এটি বস্তুর প্রোটোটাইপকে পুনরায় বরাদ্দ করা থেকেও বাধা দেয়।
+
+06. How Two Object are Equal?
+English:
+Bangli:
+07. What is Freezing? (What is Object Freezing?)
+English:
+Bangli:
+08. How to check Frozen Objects?
+English:
+Bangli:
+09. Freeze vs Seal When and Why?
+English:
+Bangli:
+10. Deep Freezing? (Object Deep Freezing?)
+English:
+Bangli:
