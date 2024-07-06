@@ -21,3 +21,7 @@ console.log(copyObj === obj);
 const newObjCopy = {...obj};
 console.log(newObjCopy);
 console.log(newObjCopy === obj);
+
+newObjCopy["isMarried"] = true;
+console.log(newObjCopy);
+console.log(obj);
