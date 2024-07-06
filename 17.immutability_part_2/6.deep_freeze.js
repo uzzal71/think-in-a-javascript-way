@@ -14,3 +14,13 @@ config.db = "Oracle";
 console.log(config);
 config.admin.name = "sujon";
 console.log(config);
+
+let deepFreeze = () => {
+    Object.keys(obj).forEach(key => {
+        if (typeof obj[key] === 'object') {
+            deepFreeze(obj[key]);
+        } else {
+            Object.freeze(obj[key]);
+        }
+    });
+};
