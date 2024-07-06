@@ -17,3 +17,7 @@ Object.assign(copyObj, obj);
 console.log(obj);
 
 console.log(copyObj === obj);
+
+const newObjCopy = {...obj};
+console.log(newObjCopy);
+console.log(newObjCopy === obj);
