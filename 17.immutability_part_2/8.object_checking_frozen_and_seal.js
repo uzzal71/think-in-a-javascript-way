@@ -25,3 +25,5 @@ let clonedConfig = {...config};
 
 console.log(Object.isFrozen(config));
 console.log(Object.isFrozen(clonedConfig));
+
+console.log(Object.isSealed({}));
