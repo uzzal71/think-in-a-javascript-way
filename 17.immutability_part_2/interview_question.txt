@@ -11,11 +11,13 @@ English: freeze() method is used to freeze an object. Freezing an object does no
 Bangli: freeze() পদ্ধতি অবজেক্ট ফ্রিজ করতে ব্যবহার করা হয়। একটি বস্তুকে হিমায়িত করা বস্তুতে নতুন বৈশিষ্ট্য যোগ করার অনুমতি দেয় না এবং বিদ্যমান বৈশিষ্ট্যগুলিকে অপসারণ বা পরিবর্তন করতে বাধা দেয়। এটি বস্তুর গণনাযোগ্যতা, কনফিগারযোগ্যতা, লিখনযোগ্যতা এবং প্রোটোটাইপ সংরক্ষণ করে।
 
 08. How to check Frozen Objects?
-English:
-Bangli:
+English: he Object.isFrozen() method can be used to check if an object is frozen. The Object.isFrozen() returns true if an object is frozen.
+Bangli: Object.is Frozen() পদ্ধতি ব্যবহার করে কোনো বস্তু হিমায়িত হয়েছে কিনা তা পরীক্ষা করা যেতে পারে। অবজেক্ট হিমায়িত হলে Object.is Frozen() true রিটার্ন করে।
+
 09. Freeze vs Seal When and Why?
-English:
-Bangli:
+English: seal() allows modification of existing properties, but does not permit addition or deletion of properties. Object. freeze(), on the other hand, prevents any modifications, additions, or deletions to properties. Object
+Bangli: seal() বিদ্যমান বৈশিষ্ট্যগুলির পরিবর্তনের অনুমতি দেয়, কিন্তু বৈশিষ্ট্যগুলি সংযোজন বা মুছে ফেলার অনুমতি দেয় না। অবজেক্ট। freeze(), অন্য দিকে, বৈশিষ্ট্যে কোনো পরিবর্তন, সংযোজন বা মুছে ফেলাকে বাধা দেয়। অবজেক্ট
+
 10. Deep Freezing? (Object Deep Freezing?)
-English:
-Bangli:
+English: The approach recursively deep-freezes an object and its nested properties using Object. freeze() and Object. isFrozen(). This makes the object and its properties immutable, preventing changes
+Bangli: পদ্ধতিটি অবজেক্ট ব্যবহার করে একটি অবজেক্ট এবং এর নেস্টেড বৈশিষ্ট্যগুলিকে পুনরাবৃত্তভাবে ডিপ-ফ্রিজ করে। freeze() এবং অবজেক্ট। বরফাচ্ছন্ন()। এটি বস্তু এবং এর বৈশিষ্ট্যগুলিকে অপরিবর্তনীয় করে তোলে, পরিবর্তন প্রতিরোধ করে
