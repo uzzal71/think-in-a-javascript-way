@@ -5,6 +5,7 @@ Bangli: অবজেক্ট। preventExtensions() স্ট্যাটিক
 06. How Two Object are Equal?
 English: Referential equality can be determined with equality operators such as strict equality (===) or coercive equality (==) and also by using Object.is() functions, but determining deep equality is tricky as the objects can be nested.
 Bangli: রেফারেন্সিয়াল সমতা সমতা অপারেটরগুলির সাথে যেমন কঠোর সমতা (===) বা জবরদস্তিমূলক সমতা (==) এবং Object.is() ফাংশন ব্যবহার করে নির্ধারণ করা যেতে পারে, তবে গভীর সমতা নির্ধারণ করা কঠিন কারণ বস্তুগুলি নেস্ট করা যেতে পারে।
+
 07. What is Freezing? (What is Object Freezing?)
 English:
 Bangli:
