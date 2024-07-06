@@ -13,3 +13,12 @@ let user = {
 
 const frozenUser = Object.freeze(user);
 console.log(frozenUser === user);
+
+user.spouse = "Jane"
+console.log(user);
+
+user.zip = "54486969"
+console.log(user);
+
+delete user.password;
+console.log(user);
