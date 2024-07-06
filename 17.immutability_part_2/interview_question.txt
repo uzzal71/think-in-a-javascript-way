@@ -7,8 +7,9 @@ English: Referential equality can be determined with equality operators such as 
 Bangli: রেফারেন্সিয়াল সমতা সমতা অপারেটরগুলির সাথে যেমন কঠোর সমতা (===) বা জবরদস্তিমূলক সমতা (==) এবং Object.is() ফাংশন ব্যবহার করে নির্ধারণ করা যেতে পারে, তবে গভীর সমতা নির্ধারণ করা কঠিন কারণ বস্তুগুলি নেস্ট করা যেতে পারে।
 
 07. What is Freezing? (What is Object Freezing?)
-English:
-Bangli:
+English: freeze() method is used to freeze an object. Freezing an object does not allow new properties to be added to the object and prevents removing or altering the existing properties. It preserves the enumerability, configurability, writability, and prototype of the object.
+Bangli: freeze() পদ্ধতি অবজেক্ট ফ্রিজ করতে ব্যবহার করা হয়। একটি বস্তুকে হিমায়িত করা বস্তুতে নতুন বৈশিষ্ট্য যোগ করার অনুমতি দেয় না এবং বিদ্যমান বৈশিষ্ট্যগুলিকে অপসারণ বা পরিবর্তন করতে বাধা দেয়। এটি বস্তুর গণনাযোগ্যতা, কনফিগারযোগ্যতা, লিখনযোগ্যতা এবং প্রোটোটাইপ সংরক্ষণ করে।
+
 08. How to check Frozen Objects?
 English:
 Bangli:
