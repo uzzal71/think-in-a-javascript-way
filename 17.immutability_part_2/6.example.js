@@ -8,3 +8,7 @@ let config = {
         "rights": ["create", "update", "delete"]
     },
 };
+
+Object.freeze(config);
+config.db = "Oracle";
+console.log(config);
