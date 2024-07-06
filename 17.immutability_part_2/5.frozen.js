@@ -10,3 +10,6 @@ let user = {
     password: "1235479",
     isAdmin: true
 }
+
+const frozenUser = Object.freeze(user);
+console.log(frozenUser === user);
