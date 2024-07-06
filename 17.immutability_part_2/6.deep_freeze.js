@@ -12,3 +12,5 @@ let config = {
 Object.freeze(config);
 config.db = "Oracle";
 console.log(config);
+config.admin.name = "sujon";
+console.log(config);
